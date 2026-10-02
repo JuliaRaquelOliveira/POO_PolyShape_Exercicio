@@ -5,6 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace PolyShape {
-    internal class PoligonoReto {
+    internal class PoligonoReto : Forma {
+
+        public PoligonoReto(string descricao) : base(descricao)
+        {
+        }
+
     }
 }
